@@ -1,24 +1,23 @@
-JavaScript React Base Demo (Latest)
+TypeScript React "material-ui" Demo
 ===================================
 
-Always update with latest versions and technologies.
+如何使用TypeScript来写"material-ui"
 
 ```
 npm install
-npm run dev
+npm run demo
 ```
 
 It will open <http://localhost:8080/> automatically.
+
+![demo](./images/demo.jpg)
 
 坑
 ---
 
 ### `tsconfig.json`
 
-`module`必须为`commonjs`或者`amd`，不能为`umd`，否则会报错：
+- "moduleResolution": "node"
 
-```
-WARNING in ./entry.tsx 3:24-31
-Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
-```
+这里必须为"node"，否则`import List from '@material-ui/core/List'`会报找不到模块的错误。
 

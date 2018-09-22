@@ -2,12 +2,13 @@
   "compilerOptions": {
     "strict": true,
     "target": "es6",
-    "module": "amd",
+    "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "jsx": "react"
+    "jsx": "react",
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules"
