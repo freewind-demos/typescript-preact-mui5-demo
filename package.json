@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "webpack-serve --open",
+    "demo": "webpack-dev-server --open",
     "pack": "webpack --display-modules"
   },
   "dependencies": {
@@ -27,7 +27,6 @@
     "typescript": "^3.0.3",
     "webpack": "^4.18.0",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "3.1.8",
-    "webpack-serve": "^2.0.2"
+    "webpack-dev-server": "3.1.8"
   }
 }
