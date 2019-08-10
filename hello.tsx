@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import {List, ListItem, ListItemText, ListItemIcon, Collapse} from '@material-ui/core'
 import InboxIcon from '@material-ui/icons/Inbox'
