@@ -7,8 +7,3 @@ TypeScript React "material-ui" Demo
 npm install
 npm run demo
 ```
-
-It will open <http://localhost:8080/> automatically.
-
-![demo](./images/demo.jpg)
-
