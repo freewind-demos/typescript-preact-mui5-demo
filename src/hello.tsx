@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
 
-import {List, ListItem, ListItemText, ListItemIcon, Collapse} from '@material-ui/core'
-import InboxIcon from '@material-ui/icons/Inbox'
-import {ExpandMore, ExpandLess} from '@material-ui/icons'
+import {List, ListItem, ListItemText, ListItemIcon, Collapse} from '@mui/material'
+import {Inbox, ExpandMore, ExpandLess} from '@mui/icons-material'
 
 export default function MyList() {
   const [open, setOpen] = useState(false)
@@ -11,7 +10,7 @@ export default function MyList() {
     <List>
       <ListItem button onClick={() => setOpen(!open)}>
         <ListItemIcon>
-          <InboxIcon/>
+          <Inbox/>
         </ListItemIcon>
         <ListItemText primary='Hello'/>
         {

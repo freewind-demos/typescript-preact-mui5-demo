@@ -1,7 +1,7 @@
-TypeScript React "material-ui" Demo
+TypeScript Preact mui5 Demo
 ===================================
 
-如何使用TypeScript来写"material-ui"
+使用 preact (非react) + mui5，主要是看bundle大小
 
 ```
 npm install
